@@ -7,6 +7,9 @@
 class Diary {
   private:
     // your code here
+    std::string password = "";
+    std::string content = "";
+    bool isOpen = false;
 
   public:
     Diary(const std::string& initialPassword);
